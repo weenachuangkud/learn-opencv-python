@@ -1,5 +1,9 @@
-import cv2
+import cv2 as cv
 
-img = cv2.imread('Photos/cat.jpg')
-cv2.imshow('Cat', img)
-cv2.waitKey(0)
+img = cv.imread('Photos/cat.jpg')
+cv.imshow('Cat', img)
+
+gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+cv.imshow('Gray cat', gray)
+
+cv.waitKey(0)
