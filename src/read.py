@@ -1,3 +1,5 @@
-import cv2 as cv 
+import cv2
 
-cv.imread()
+img = cv2.imread('Photos/cat.jpg')
+cv2.imshow('Cat', img)
+cv2.waitKey(0)
