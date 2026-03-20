@@ -1,5 +1,9 @@
 # Kate
 *.kateproject
+*.kate-swp
+
+# pylsp wrapper script
+pylsp_in_env.bash
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
