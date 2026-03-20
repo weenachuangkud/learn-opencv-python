@@ -9,4 +9,7 @@ cv.imshow('Gray cat', gray)
 blur = cv.GaussianBlur(img, (5,5), cv.BORDER_DEFAULT)
 cv.imshow('Blur cat', blur)
 
+canny = cv.Canny(blur, 125, 175)
+cv.imshow('Canny Edges', canny)
+
 cv.waitKey(0)
