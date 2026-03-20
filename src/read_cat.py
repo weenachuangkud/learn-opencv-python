@@ -18,7 +18,7 @@ cv.imshow('Dilated', dilated)
 resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
 cv.imshow('Resized', resized)
 
-cropped = img[50:200, 200:400]
+cropped = img[50:300, 200:400]
 cv.imshow('Cropped', cropped)
 
 cv.waitKey(0)
